@@ -1,0 +1,27 @@
+{
+    "name": "jrgd/bedrock-mu-plugins",
+    "type": "wordpress-plugin",
+    "description":       "",
+    "keywords":          [
+        "wordpress",
+        "roots",
+        "bedrock"
+    ],
+    "homepage":          "https://github.com/roots/Bedrock",
+    "support":           {
+    },
+    "require":           {
+        "php":              ">=5.5",
+    },
+    "require-dev":       {
+    },
+    "autoload":          {
+        "psr-4":    {
+            "Brain\\": "src/"
+        }
+    },
+    "minimum-stability": "stable",
+    "config":            {
+        "optimize-autoloader": true
+    }
+}
