@@ -11,7 +11,7 @@
     "support":           {
     },
     "require":           {
-        "php":              ">=5.5",
+        "php":              ">=5.5"
     },
     "require-dev":       {
     },
